@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   margin: 0;
+   font-family: 'Urbanist', sans-serif;
+}
+
+
+.card_body{
+   opacity: 0;
+   padding: 30px;
+   position: absolute;
+   background: #00000077;
+   backdrop-filter: blur(4px);
+   transition: 0.6s;
+}
+
+.upto{
+   top: -10%;
+   position: absolute;
+   left: 0;
+   transition: 0.5s;
+}
+
+.carousel-item:hover .card_body {
+  opacity: 1;
+ }
+ 
+ .card:hover .card_body {
+   opacity: 1;
+  }
+
+  .card:hover .card_body .upto{
+     top: 50%; 
+  }
