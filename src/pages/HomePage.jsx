@@ -3,6 +3,7 @@ import Categories from "../components/Categories"
 import Navbar from "../components/Navbar"
 import PopulerProducts from "../components/PopulerProducts"
 import Slider from "../components/Slider"
+import Cart from "./Cart"
 import SingleProduct from "./SingleProduct"
 
 
@@ -18,6 +19,7 @@ const HomePage = () => {
         <Categories/>
         <PopulerProducts/>
         <SingleProduct/>
+        <Cart/>
     </div>
   )
 }

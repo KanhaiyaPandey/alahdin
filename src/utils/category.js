@@ -1,20 +1,30 @@
+import kid from "../assets/kid.jpg"
+import men from "../assets/men.jpg"
+import women from "../assets/women.jpg"
+import shoe1 from "../assets/shoe1.jpg"
+import shoe2 from "../assets/shoe2.jpg"
+import shoe3 from "../assets/shoe3.jpg"
+import denim from "../assets/denim.jpg"
+import tshirt from "../assets/tshirt.jpg"
+
+
 export const categories = [
     {
         id: 1,
-        img: "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2hpcnR8ZW58MHx8MHx8fDI%3D",
-        title: "SHIRT STYLE"
+        img: women,
+        title: "WOMEN"
     },
 
     {
         id: 2,
-        img: "https://images.unsplash.com/photo-1614696398628-0991e8f40e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGxpZ2h0JTIwamFja2V0fGVufDB8fDB8fHwy",
-        title: "LIGHT JACKET"
+        img: men,
+        title: "MEN"
     },
 
     {
         id: 3,
-        img: "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxvdW5nZSUyMHdlYXJ8ZW58MHx8MHx8fDI%3D",
-        title: "LOUNGEWEAR LOVE"
+        img: kid,
+        title: "KIDS"
     }
 ]
 
@@ -31,12 +41,12 @@ export const topProduct = [
     },
        {
         id: 3,
-        img: "https://img.freepik.com/free-photo/stylish-handsome-indian-man-tshirt-pastel-wall_496169-1571.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        img: shoe2,
         title:"Roadster",  
     },
        {
         id: 4,
-        img: "https://img.freepik.com/free-photo/portrait-happy-cheerful-woman-pajamas_171337-5829.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=ais",
+        img: tshirt,
         title:"Roadster",   
     },
        {
@@ -46,18 +56,18 @@ export const topProduct = [
     },
        {
         id: 6,
-        img: "https://img.freepik.com/premium-photo/fashion-men-jacket-coat-dark-brown-color_800563-3287.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        img: denim,
         title:"Roadster"   
     },
     {
         id: 7,
-        img: "https://img.freepik.com/premium-photo/fashion-men-jacket-coat-dark-brown-color_800563-3287.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        img: shoe1,
         title:"Roadster"  
     },
 
     {
         id: 8,
-        img: "https://img.freepik.com/premium-photo/fashion-men-jacket-coat-dark-brown-color_800563-3287.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        img: shoe3,
         title:"Roadster"  
     }
 ]
