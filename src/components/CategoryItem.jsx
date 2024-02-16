@@ -4,8 +4,8 @@
 
 const CategoryItem = ({item}) => {
   return (
-    <div className="card rounded-md relative overflow-hidden">
-        <img className=" h-[40rem]" src={item.img} alt="" />
+    <div className="card rounded-md relative overflow-hidden  sm:h-[40rem] h-[20rem]">
+        <img className="h-full w-full object-cover" src={item.img} alt="" />
 
         <div className="card_body flex w-full h-full text-white items-center justify-center">
             <div className=" flex flex-col gap-14 items-center justify-center">

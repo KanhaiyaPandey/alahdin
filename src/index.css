@@ -17,12 +17,7 @@
    transition: 0.6s;
 }
 
-.upto{
-   top: -10%;
-   position: absolute;
-   left: 0;
-   transition: 0.5s;
-}
+
 
 .carousel-item:hover .card_body {
   opacity: 1;
@@ -32,6 +27,7 @@
    opacity: 1;
   }
 
-  .card:hover .card_body .upto{
-     top: 50%; 
+  .like{
+   color: red;
   }
+

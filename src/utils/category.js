@@ -17,3 +17,47 @@ export const categories = [
         title: "LOUNGEWEAR LOVE"
     }
 ]
+
+export const topProduct = [
+    {
+     id: 1,
+     img: "https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-blue-shirt-clothes-fashion-man-posing_158538-4913.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+     title:"Roadster"
+    },
+    {
+        id: 2,
+        img: "https://img.freepik.com/premium-photo/blue-shirt-is-hanging-black-pole-front-blue-wall_811902-266.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+       title:"Arrow",
+    },
+       {
+        id: 3,
+        img: "https://img.freepik.com/free-photo/stylish-handsome-indian-man-tshirt-pastel-wall_496169-1571.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        title:"Roadster",  
+    },
+       {
+        id: 4,
+        img: "https://img.freepik.com/free-photo/portrait-happy-cheerful-woman-pajamas_171337-5829.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=ais",
+        title:"Roadster",   
+    },
+       {
+        id: 5,
+        img: "https://img.freepik.com/free-photo/young-woman-wearing-pajamas-sleep-mask_273609-41647.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=ais",
+        title:"Roadster"   
+    },
+       {
+        id: 6,
+        img: "https://img.freepik.com/premium-photo/fashion-men-jacket-coat-dark-brown-color_800563-3287.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        title:"Roadster"   
+    },
+    {
+        id: 7,
+        img: "https://img.freepik.com/premium-photo/fashion-men-jacket-coat-dark-brown-color_800563-3287.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        title:"Roadster"  
+    },
+
+    {
+        id: 8,
+        img: "https://img.freepik.com/premium-photo/fashion-men-jacket-coat-dark-brown-color_800563-3287.jpg?size=626&ext=jpg&ga=GA1.1.1352202038.1706196203&semt=sph",
+        title:"Roadster"  
+    }
+]

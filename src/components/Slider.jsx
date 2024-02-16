@@ -4,7 +4,7 @@ import img3 from "../assets/shirts.jpg"
 
 const Slider = () => {
   return (
-<div className="carousel h-[38rem] mt-10">
+<div className=" hidden sm:carousel h-[38rem] mt-10">
 
   <div className="carousel-item overflow-hidden relative">
     <img src={img1} className="" alt="Burger" />
